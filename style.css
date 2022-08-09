@@ -1,0 +1,88 @@
+body {
+  background: #e6ebdd;
+  color: #111;
+  margin: 0;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+h1 {
+  font-size: 20px;
+  line-height: 24px;
+}
+h2 {
+  font-size: 18px;
+  line-height: 22px;
+}
+h3 {
+  font-size: 16px;
+  line-height: 20px;
+}
+a {
+  background-color: inherit;
+  color: #f06;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+blockquote {
+  background-color: inherit;
+  color: #999;
+  font: italic 15px "Times New Roman", serif;
+  border-left: 5px solid #111;
+  padding: 2px 15px;
+}
+/* Wrapper Settings */
+
+#wrapper {
+  background: #fff;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: none;
+  padding: 10px;
+  margin: 1% auto;
+  width: 77%;
+}
+#body {
+  margin: -20;
+}
+#container {
+  padding: 10;
+  margin: -30;
+}
+/* Other Settings*/
+
+#content {
+  text-align: left;
+  padding: 25px;
+  margin-right: 210px;
+}
+#content h1 {
+  font: normal 18px Arial, sans-serif;
+  padding: 0;
+}
+#content ul {
+  list-style: none;
+}
+#content ul li {
+  padding: 2px 0 2px 10px;
+  margin: 0;
+}
+#content ul li:before {
+  content: "\00BB  ";
+  color: #f06;
+}
+#content .item {
+  line-height: 1.25em;
+  margin: 0;
+}
+#content .item p {
+  text-align: justify;
+}
+#content .item span {
+  background-color: inherit;
+  color: #999;
+  font-size: 11px;
+}
